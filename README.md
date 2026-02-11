@@ -32,13 +32,13 @@ Updated the JavaScript to correctly reference:
 document.getElementById("count")
 This resolved the issue where the increase button was not updating the counter value.
 
+### 2️⃣ CSS Issues
 
-2️⃣ CSS Issues
-Problem 1:
+#### Problem:
 Missing semicolon after:
 
 align-items: center
-Problem 2:
+#### Problem 2:
 Missing semicolon after:
 
 border: 2px solid black
@@ -50,8 +50,10 @@ Added required semicolons:
 
 align-items: center;
 border: 2px solid black;
-3️⃣ JavaScript Issues
-Problem 1:
+
+
+### 3️⃣ JavaScript Issues
+#### Problem 1:
 Incorrect DOM ID reference:
 
 document.getElementById("counter")
@@ -59,7 +61,7 @@ Fix:
 Corrected to:
 
 document.getElementById("count")
-Problem 2:
+#### Problem 2:
 Inconsistent DOM update methods:
 
 innerText used in one function
@@ -70,13 +72,13 @@ Fix:
 Standardized both functions to use:
 
 innerText
-Problem 3:
+#### Problem 3:
 Missing semicolon at the end of a JavaScript statement.
 
 Fix:
 Added proper semicolons for cleaner and consistent code.
 
-📁 Final File Structure
+### 📁 Final File Structure
 Counter-App/
 │
 ├── index.html
